@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Archivos de configuración o sistema
+.DS_Store
+*.swp
+*.bak
+
+# Archivos de datos temporales
+*.csv
+*.xlsx
+
+# Carpetas de ejecución generadas
+ejecución_*/
+
+# IDEs
+.vscode/
+.idea/
+
+# Otros
+*.zip
+*.tar.gz
