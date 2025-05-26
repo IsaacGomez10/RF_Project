@@ -16,7 +16,7 @@ else:
     base_folder = utils.crear_carpeta_ejecucion(base_folder_config)
 
 # 2. Generar datos falsos
-num_registros = 10000
+num_registros = 1000
 data = {
     'ID_cliente': range(1, num_registros + 1),
     'Edad': np.random.randint(18, 70, size=num_registros),
